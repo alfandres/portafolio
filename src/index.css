@@ -1,0 +1,29 @@
+:root{
+  --black:#000000;
+  --white: #FFFFFF;
+
+  /* light mode*/
+    --color-one: #A0D2EB;
+    --color-two: #E6EAF3;
+    --color-three: #D0BDF4;
+    --color-fuor: #8559B1;
+    --color-five: #4A4D60;
+
+  /*dark mode*/  
+    --color-dark-one: #D4DFE1;
+    --color-dark-two: #B6C4C7;
+    --color-dark-three: #67797b;
+    --color-dark-fuor: #054342;
+    --color-dark-five: #052011;
+
+    --sm: 14px;
+    --md: 16px;
+    --lg: 20px;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Anek Devanagari', sans-serif;
+  }

@@ -1,0 +1,26 @@
+.container-projects{
+    display: flex;
+    flex-direction: column;
+}
+.container-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+    margin-bottom: 35px;;
+}
+.container-project span{
+    font-weight: 500;
+    font-size: 60px;
+}
+
+
+.img-container{
+    width: 800px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+.title-container{
+   align-items: center;
+}

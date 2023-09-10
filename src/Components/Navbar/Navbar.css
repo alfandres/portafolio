@@ -1,0 +1,51 @@
+.nav-container{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    /*background-attachment: fixed;*/
+    text-decoration: none;
+    padding: 6px 0 6px 0;
+}
+
+ul{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   padding: 0;
+    
+}
+.ul--right{
+    padding-right: 25px;
+
+}
+
+.ul--left{
+    padding-left: 25px;
+
+}
+
+
+li{
+    list-style: none;
+    text-decoration-style: none;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.li-name{
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-link--item{
+    width: 30px;
+
+}
