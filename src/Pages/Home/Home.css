@@ -1,32 +1,35 @@
 .Home-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 700;
-    font-size: 35px;
     margin-bottom: 50px;
 }
 
 .name-container{
-    margin-bottom: 30px;
-
+    margin-bottom: 25px;
 }
-.name{
+.name-container span{
     font-weight: 700;
     font-size: 25px;
 }
 
-.title-container h1{
-    margin-bottom: 40px ;
-}
-.title-container, .title-container--phrase{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.title-container{
+    margin-bottom: 25px ;
 
 }
-.title-container--phrase{
+.title-container h1{
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+
+    margin-bottom: 12px ;
+}
+.title-container--phrase p{
     font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 12px;
     
 }
 .author-phrase{
@@ -37,26 +40,59 @@
     font-size: 19px;
 }
 
+.scroll-button--home{
+    margin-bottom: 60px;
+    width: 200px;
+    font-size: 25px;
+}
+.scroll-button--home a{
+    display: inline-block;
+    padding: 7px 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: white;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
 .links-container{
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
 }    
-.box{
+.boxes{
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 50px;
     margin-bottom: 35px;
+}
+.boxes a{
+    text-decoration: none;
+    color: black;
 } 
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 78px;
+    background-color: var(--color-one);
+    border-radius: 10px;
+}
 .box img{
     width: 68px;
     height: 68px;
 
 }
-.box-one, .box-two, .box-three{
-    background-color: var(--color-three);
-    border-radius: 18%;
-}
+.box span{
+    padding-left: 1px;
+    width: 68px;
+    font-size: medium;
 
+}

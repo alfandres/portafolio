@@ -27,3 +27,7 @@
     border: 0;
     font-family: 'Anek Devanagari', sans-serif;
   }
+
+  html{
+    scroll-behavior: smooth;
+}
