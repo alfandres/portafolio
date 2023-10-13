@@ -1,0 +1,54 @@
+.background--modal{
+    
+    background-color:rgba(32,35,41,.8);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+    
+}
+
+.card--modal {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .tools--modal {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+  }
+  
+  .circle--modal {
+    padding: 0 4px;
+  }
+  
+  .box--modal {
+    display: inline-block;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .red--modal {
+    background-color: #ff605c;
+  }
+
+  .card-content--modal{
+    padding: 20px 60px;
+	  color: black;
+  }
+
+  

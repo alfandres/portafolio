@@ -1,12 +1,15 @@
-function About() {
+import AboutMe from '../../Components/AboutMe';
+import Profile from '../../Components/Profile';
+import SkillAndContact from '../../Components/SkillAndContact';
 
+function About() {
     return (
-      
-        <div className='About-container'>
-          <h1>About</h1>
-        </div>
-      
-    )
+      <>
+        <Profile />
+        <AboutMe />
+        <SkillAndContact />
+      </>
+    );
   }
   
   export default About ; 

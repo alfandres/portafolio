@@ -1,4 +1,4 @@
-.project-container--todo{
+.project-container--shopi{
     width: 100%;
     height: 100%;
     display: grid;
@@ -8,24 +8,8 @@
     background-size: 500%;
     animation: animatedBackground 10s infinite;
 }
-@keyframes animatedBackground{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
-.project-container--todo h1{
-    font-weight: 700;
-    font-size: 45px;
-    margin-top: 25px;
-}
 
-.sec--todo{
+.section--shopi{
     width: 100%;
     height: 800px;
   
@@ -38,31 +22,37 @@
 }
 
 
+.both h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 25px; 
+}
 .both{
     display: grid;
     place-items: center;
     padding: 25px 10px;
 }
-.both a{
-    display: inline-block;
-    padding: 7px 0;
-    width: 100px;
+
+
+.right-container--shopi h2{
+    font-weight: 500;
+    font-size: 35px;
+    padding: 0 25px;
     text-align: center;
-    border: 1px solid black;
-    border-radius: 50px;
-    background: white;
-    margin-top: 15px;
-    text-decoration: none;
+}
+#svg-ir{
+    height: 400px;
+    padding: 0;
 }
 
-.left-container--todo{
+.left-container--shopi{
     text-align: center;
 }
-.left-container--todo h2{
+.left-container--shopi h2{
     font-weight: 500;
     font-size: 35px;
 }
-.left-container--todo p{
+.left-container--shopi p{
     font-weight: 300;
     font-size: 25px;
     padding: 0 25px;
@@ -71,36 +61,48 @@
 
 
 
-.img-container--todo{
+.img-container--shopi{
     display: grid;
     place-items: center;
     justify-content: center;
 }
-.img-container--todo img{
+.img-container--shopi img{
     width: 700px;
-    
+    padding: 0 25px;
 }
 #svg{
     height: 280px;
 }
 
 
-.icons-container--todo{
+.icons-container--shopi{
     display: flex;
     align-items: center;
     margin-bottom: 25px;
     gap: 35px;
 }
-.icon-container--todo{
+.icon-container--shopi{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.icon-container--todo span{
+.icon-container--shopi span{
     font-weight: 300;
     font-size: medium;
 }
-.icon-container--todo img{
+.icon-container--shopi img{
     width: 80px;
 }
 
+
+@keyframes animatedBackground{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

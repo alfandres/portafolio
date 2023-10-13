@@ -1,0 +1,83 @@
+#sec1--aboutme{
+	background-image: linear-gradient(135deg
+	,#A0D2EB, #E6EAF3, #0fd850, #D0BDF4, #8559B1);
+	background-size: 500% ;
+	animation: animatedBackground 10s infinite;
+
+}
+
+.section--aboutme{
+	width: 100%;
+    height: 850px;
+    display: grid;
+    place-items: center;
+	
+}
+
+.sec1-container--aboutme{
+	display: flex;
+	align-items: center;
+	gap: 25px;
+
+}
+
+.avatar {
+	width: 180px;
+	height: 180px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	margin-top: 25px;
+	
+}
+.avatar img{
+    width: 100%; 
+    height: auto;
+}
+
+.name-container--aboutme{
+	margin-top: 25px;
+}
+.name-container--aboutme h2{
+	font-size: 50px;
+}
+.name-container--aboutme span{
+	font-size: 25px;
+	
+}
+.scroll-button1--aboutme{
+	margin-bottom: 55px;
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+@keyframes animatedBackground {
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+	}

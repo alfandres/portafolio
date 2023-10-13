@@ -1,0 +1,88 @@
+.container--contact-us{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 100%;
+
+}
+
+.contact-form--contact-us {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-form--contact-us label {
+    color: black;
+  }
+  
+  .contact-form--contact-us .heading--contact-us {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form--contact-us form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form--contact-us label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    width: 94%;
+  }
+  
+  .contact-form--contact-us input, .contact-form--contact-us textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form--contact-us input:focus, .contact-form--contact-us textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6384;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form--contact-us button[type="submit"] {
+    background-color: #ff6384;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form--contact-us button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .email-svg--contact-us{
+    display: grid;
+    place-items: center;
+    
+  }
+
+  .email-svg--contact-us div{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+
+  .email-svg--contact-us img{
+    width: 70%;
+  }

@@ -1,13 +1,11 @@
-import './ProjectShopi.css';
+import Shopi from "../../Components/Shopi";
 
 
 function ProjectShopi() {
 
     return (
       
-        <div>
-          <h1>ProjectShopi</h1>
-        </div>
+      <Shopi/>
       
     )
   }

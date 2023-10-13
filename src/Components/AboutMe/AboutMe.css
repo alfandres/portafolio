@@ -1,0 +1,134 @@
+
+.scroll-button2--aboutme{
+   margin-bottom: 15px; 
+    
+}
+
+
+.title-container--aboutme{
+	width: 100%;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title-container--aboutme h1{
+	font-size: 100px;
+
+}
+.animated-elements{
+	font-weight: bold;
+	font-style: normal;
+	text-indent: 6em;
+	font-size: 35px;
+}
+
+#sec2--aboutme{
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-size: 500% ;
+	animation: animatedBackground 10s infinite;
+
+}
+
+.sec2-container--aboutme{
+	width: 100%;
+    height: 600px;
+	
+	display: grid;
+  	grid-template-rows: 1fr;
+  	grid-template-columns: repeat(3, 1fr);
+  	gap: 8px;
+	place-items: center;
+	align-items: start;
+	margin-top: 35px;
+
+}
+/* .text-container--aboutme{
+	width: 400px;
+	height: 600px;
+	background-color: white;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.text-container--aboutme:hover{
+	transform: scale(1.1);
+	transition: 3s;
+} */
+
+.card--aboutme {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	width: 350px;
+	height: 580px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	padding: 32px;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+.content--aboutme {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	color: #e8e8e8;
+	transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+.content--aboutme .heading--aboutme {
+	font-weight: 700;
+	font-size: 32px;
+  }
+  
+.content--aboutme .para--aboutme {
+	line-height: 1.5;
+  }
+.content--aboutme .btn--aboutme {
+	color: #e8e8e8;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(-45deg, #0fd850 0%, #8559B1 100% );
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+.card--aboutme::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(-45deg, #0fd850 0%, #8559B1 100% );
+	z-index: -1;
+	transition: all 2.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+.card--aboutme:hover::before {
+	width: 100%;
+	
+  }
+.card--aboutme:hover {
+	box-shadow: none;
+	transform: scale(1.1);
+	transition: 3s;
+  }
+.card--aboutme:hover .btn--aboutme {
+	color: #212121;
+	background: #e8e8e8;
+  }
+  
+.content--aboutme .btn--aboutme:hover {
+	outline: 2px solid #e8e8e8;
+	background: transparent;
+	color: #e8e8e8;
+  }
+.content--aboutme .btn--aboutme:active {
+	box-shadow: none;
+  }
+
+
+

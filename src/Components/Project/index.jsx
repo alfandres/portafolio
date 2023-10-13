@@ -30,7 +30,9 @@ function Project() {
                         </div>
                         </a>
                         <div className='scroll-button--project'>
-                            <a href="#proj2">Proyecto 2</a> 
+                            <button className='buttons'>
+                                <a href="#proj2">Proyecto 2</a> 
+                            </button>
                         </div>
                         
                     </div>
@@ -77,7 +79,9 @@ function Project() {
                         </div>  
                         </a>
                         <div className='scroll-button--project'>
-                            <a href='#home'>Inicio</a>
+                            <button className='buttons'>
+                                <a href='#home'>Inicio</a>
+                            </button>
                         </div>
                 </div>
                 

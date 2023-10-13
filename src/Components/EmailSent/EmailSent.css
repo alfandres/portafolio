@@ -1,0 +1,15 @@
+.container--email-sent{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.container--email-sent img{
+    width: 40%;
+}
+
+.container--email-sent button {
+    margin-top: 25px;
+}

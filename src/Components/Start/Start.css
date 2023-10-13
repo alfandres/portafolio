@@ -7,7 +7,7 @@
 }
 
 .name-container{
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 .name-container span{
     font-weight: 700;
@@ -20,14 +20,14 @@
 }
 .title-container h1{
     font-weight: 700;
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
 
     margin-bottom: 12px ;
 }
 .title-container--phrase p{
     font-weight: 500;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 12px;
     
@@ -41,22 +41,9 @@
 }
 
 .scroll-button--home{
-    margin-bottom: 60px;
-    width: 200px;
-    font-size: 25px;
-}
-.scroll-button--home a{
-    display: inline-block;
-    padding: 7px 0;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 50px;
-    background: white;
-    margin-top: 15px;
-    text-decoration: none;
-    color: black;
+    margin: 50px 0;
+    
+    
 }
 
 .links-container{
@@ -65,18 +52,18 @@
     display: flex;
     align-items: center;
 }    
-.boxes{
+.boxes--start{
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 50px;
     margin-bottom: 35px;
 }
-.boxes a{
+.boxes--start a{
     text-decoration: none;
     color: black;
 } 
-.box{
+.box--start{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -84,13 +71,37 @@
     height: 78px;
     background-color: var(--color-one);
     border-radius: 10px;
+    z-index: 0;
+    position: relative;
+ overflow: hidden;
 }
-.box img{
+.box--start::before{
+    content: '';
+    width: 0;
+    height: 78px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.box--start:hover::before{
+    width: 150px ;
+    
+}
+.box--start:hover{
+    transform: scale(1.1);
+	transition: 1s;
+}
+.box--start img{
     width: 68px;
     height: 68px;
 
 }
-.box span{
+.box--start span{
     padding-left: 1px;
     width: 68px;
     font-size: medium;
