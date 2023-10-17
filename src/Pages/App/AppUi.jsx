@@ -21,7 +21,7 @@ import EmailSent from '../../Components/EmailSent';
 const AppRouter = () => {
   
     let router = useRoutes ([
-      { path: '/', element: <Home/> },
+      { path: '/portafolio', element: <Home/> },
       { path: '/about', element: <About/> },
       { path: '/project-todoandtodo', element: <ProjectTodoandtodo/> },
       { path: '/project-shopi', element: <ProjectShopi/> },
