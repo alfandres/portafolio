@@ -22,10 +22,10 @@ const AppRouter = () => {
   
     let router = useRoutes ([
       { path: '/portafolio', element: <Home/> },
-      { path: '/about', element: <About/> },
-      { path: '/project-todoandtodo', element: <ProjectTodoandtodo/> },
-      { path: '/project-shopi', element: <ProjectShopi/> },
-      { path: '/*', element: <NotFound/> }
+      { path: '/portafolio/about', element: <About/> },
+      { path: '/portafolio/project-todoandtodo', element: <ProjectTodoandtodo/> },
+      { path: '/portafolio/project-shopi', element: <ProjectShopi/> },
+      { path: '/portafolio/*', element: <NotFound/> }
     ]);
     return router ;
 }
