@@ -8,18 +8,17 @@ function Profile() {
     const el = React.useRef(null);
     
     React.useEffect(() => {
-    const typed = new Typed(el.current,{
-        strings: [
-            '...',
-            'FrontEnd Developer.'
-            ],
-        typeSpeed: 50,
-        startDelay: 1000,
-        backSpeed: 50,
-        backDelay: 1500,
-        loop: true,
-        loopCount: false,
-
+        const typed = new Typed(el.current,{
+            strings: [
+                '...',
+                'FrontEnd Developer.'
+                ],
+            typeSpeed: 50,
+            startDelay: 1000,
+            backSpeed: 50,
+            backDelay: 1500,
+            loop: true,
+            loopCount: false,
 
     });
     return () => {

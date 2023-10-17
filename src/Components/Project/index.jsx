@@ -1,5 +1,6 @@
 import './Project.css';
 import icons from '../../assets/icon/icons';
+import images from '../../assets/img/img';
 
 function Project() {
 
@@ -39,7 +40,7 @@ function Project() {
                     </div>
                     <div className='containers img-container--project'>
                         <a href='/project-todoandtodo'>
-                            <img src='src\assets\img\Portada_ToDo&ToDo.jpg' alt='Portada_ToDo&ToDo'/>   
+                            <img src={images.portadaT} alt='Portada_ToDo&ToDo'/>   
                         </a>
                     </div>
                 
@@ -48,7 +49,7 @@ function Project() {
                    
                 <div className='containers img-container--project'>
                         <a href='/project-shopi'>
-                            <img src='src\assets\img\Portada_Shopi.jpg' alt='Portada_Shopi'/>   
+                            <img src={images.portadaS} alt='Portada_Shopi'/>   
                         </a>
                 </div>
                 <div className='containers title-container--project'>
