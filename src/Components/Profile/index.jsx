@@ -2,6 +2,7 @@ import React from 'react';
 import Typed from 'typed.js';
 
 import './Profile.css';
+import images from '../../assets/img/img';
 
 function Profile() {
     const el = React.useRef(null);
@@ -30,7 +31,7 @@ function Profile() {
         <section id='sec1--aboutme' className='section--aboutme'>
                 <div className='sec1-container--aboutme'>
                     <div className="avatar">
-                        <img src="src\assets\img\me.jpg" alt="me" />
+                        <img src={images.me} alt='me' />
                     </div>
                     <div className='name-container--aboutme'>
                         <h2>Andres Parra </h2>

@@ -1,4 +1,5 @@
 import './Start.css';
+import icons from '../../assets/icon/icons';
 
 function Start() {
     return(
@@ -32,20 +33,20 @@ function Start() {
               <div className='boxes--start'>
                 <a href='https://github.com/alfandres' target='_blank'> 
                   <div className='box--start'>
-                    <img src='src\assets\icon\icon-github.svg' alt='icon-github'/>
+                    <img src={icons.svgGitHub} alt='icon-github'/>
                     <span>GitHub</span>
                   </div>
                 </a>
                 <a href='https://www.linkedin.com/in/andres-parra-64b27a174/' target='_blank' >
                   <div className='box--start'>
-                    <img src='src\assets\icon\icon-linkedin.svg' alt='icon-linkedin'/>
+                    <img src={icons.svgLinkedin} alt='icon-linkedin'/>
                     <span>Linkedin</span>
                   </div>
                   
                 </a>
                 <a href='/about'>
                   <div className='box--start'> 
-                    <img src='src\assets\icon\icon-my-contact.svg' alt='icon-my-contact'/>
+                    <img src={icons.svgContact} alt='icon-my-contact'/>
                     <span>Contacto</span>
                   </div>
                     

@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import icons from '../../assets/icon/icons';
 
 function Navbar() {
 
@@ -24,14 +25,14 @@ function Navbar() {
                 <li  className='li-container' >
                     <NavLink to='/' >
                         <div className='nav-link--item'>
-                            <img src='src\assets\icon\es.svg' alt='es' />
+                            <img src={icons.svgSpanish} alt='es' />
                         </div>
                     </NavLink>
                 </li>
                 <li  className='li-container'>
                     <NavLink to='/'>
                         <div className='nav-link--item'>
-                            <img src='src\assets\icon\en.svg' alt='en' />
+                            <img src={icons.svgEnglish}alt='en' />
                         </div>
                     </NavLink>
                 </li>

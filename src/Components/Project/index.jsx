@@ -1,4 +1,5 @@
 import './Project.css';
+import icons from '../../assets/icon/icons';
 
 function Project() {
 
@@ -12,19 +13,19 @@ function Project() {
                         <p>Estado: activo</p>
                         <div className='icons-container'>
                             <div className='icon-container'>
-                                <img src="src\assets\icon\html.svg" alt="html" />
+                                <img src={icons.svgHtml} alt='html' />
                                 <span>HTML</span>
                             </div>
                             <div className='icon-container'>
-                                <img src="src\assets\icon\css.svg" alt="css" />
+                                <img src={icons.svgCss} alt='css' />
                                 <span>CSS</span>  
                             </div>
                             <div className='icon-container'>
-                                <img src="src\assets\icon\js.svg" alt="js" />
+                                <img src={icons.svgJs} alt='js'/>
                                 <span>JavaScript</span>  
                             </div>
                             <div className='icon-container'>
-                                <img src="src\assets\icon\react.svg" alt="react" />
+                                <img src={icons.svgReact} alt='react' />
                                 <span>React</span>
                             </div>
                         </div>
@@ -57,23 +58,23 @@ function Project() {
                         <p>Estado: pausado</p>
                         <div className='icons-container'>
                             <div className='icon-container'>
-                                <img src="src\assets\icon\html.svg" alt="html" />
+                                <img src={icons.svgHtml} alt='html' />
                                 <span>HTML</span>
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\tailwindcss.svg" alt="tailwindcss" />
+                                <img src={icons.svgTailwindcss} alt='tailwindcss' />
                                 <span>Tailwindcss</span>  
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\js.svg" alt="js" />
+                                <img src={icons.svgJs} alt='js' />
                                 <span>JavaScript</span>  
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\vite.svg" alt="vite" />
+                                <img src={icons.svgVite} alt='vite' />
                                 <span>Vite</span>   
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\react.svg" alt="react" />
+                                <img src={icons.svgReact} alt='react' />
                                 <span>React</span>   
                              </div>
                         </div>  

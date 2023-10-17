@@ -1,7 +1,9 @@
 import React from 'react';
 import { useContext } from 'react';
 import { Context } from '../../Context';
+
 import './EmailSent.css';
+import icons from '../../assets/icon/icons';
 
 function EmailSent() {
     const context = useContext(Context);
@@ -15,7 +17,7 @@ function EmailSent() {
         <div className='container--email-sent'>
             <h1>Mensaje Enviado...</h1>
             <p>Tu mensaje fue enviado correctamente</p> 
-            <img src="src\assets\icon\sent.svg" alt="sent.svg" />
+            <img src={icons.svgSent} alt='sent.svg' />
             <button className='buttons' onClick={toggleModal}>Aceptar</button>
         </div>
         

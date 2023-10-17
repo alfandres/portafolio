@@ -1,4 +1,6 @@
 import './Shopi.css';
+import ShopiImg from '../../assets/shopi/ShopiImg';
+import icons from '../../assets/icon/icons';
 
 function Shopi(){
     return(
@@ -22,7 +24,7 @@ function Shopi(){
 
             <div className='both  right-container--shopi'>
                     <div className='img-container--shopi'>
-                        <img src='src\assets\icon\projectShopi\sec1shopi.svg' alt='img-inicio'/>
+                        <img src={ShopiImg.svgSec1} alt='svg-sec1'/>
                     </div>
             </div>
                       
@@ -37,7 +39,7 @@ function Shopi(){
                     Explora nuestro catálogo diverso que abarca desde moda y electrónica 
                     hasta productos de belleza y hogar. Sea lo que sea que estés buscando, lo encontrarás en Shopi.
                     </p>
-                    <img src='src\assets\icon\projectShopi\sec2shopi.svg' id='svg' alt='img-sec2'/>
+                    <img src={ShopiImg.svgSec2} id='svg' alt='svg-sec2'/>
                     <button className='buttons'>
                         <a href="#sec3--shopi">Seccion 3</a>
                     </button>
@@ -46,7 +48,7 @@ function Shopi(){
 
                 <div className='both right-container--shopi '>
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi1.png' alt='img-inicio'/>
+                        <img src={ShopiImg.png1} alt='img-home'/>
                     </div>
                 </div>
                 
@@ -62,7 +64,7 @@ function Shopi(){
                     <p>
                         Filtra tu producto por categoria y encuentra lo que estas buscando.
                     </p>    
-                    <img src="src\assets\icon\projectShopi\sec3shopi.svg" id='svg' alt="img-sec3" />
+                    <img src={ShopiImg.svgSec3} id='svg' alt='svg-sec3' />
                     <button className='buttons'>
                         <a href="#sec4--shopi">Seccion 4</a>
                     </button>
@@ -72,7 +74,7 @@ function Shopi(){
                 <div className='both right-container--shopi'>
                     
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi2.png' alt='img-crear'/>
+                        <img src={ShopiImg.png2} alt='img-category'/>
                     </div>
                 </div>
                 
@@ -88,7 +90,7 @@ function Shopi(){
                     <p>
                     Mira los detalles e informacion de tu producto.
                     </p>
-                    <img src="src\assets\icon\projectShopi\sec4shopi.svg" id='svg' alt="img-sec4" />
+                    <img src={ShopiImg.svgSec4} id='svg' alt='svg-sec4' />
                     <button className='buttons'>
                         <a href="#sec5--shopi">Seccion 5</a>
                     </button>
@@ -98,7 +100,7 @@ function Shopi(){
                 <div className='both right-container--shopi'>
                     
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi3.png' alt='img-completacion'/>
+                        <img src={ShopiImg.png3} alt='img-completion'/>
                     </div>
                 </div>
               
@@ -113,7 +115,7 @@ function Shopi(){
                         Filtra y busca ese producto que quieres
                         tanto, añadelo a tus compras.
                     </p>
-                    <img src="src\assets\icon\projectShopi\sec5shopi.svg" id='svg' alt="img-sec5" />
+                    <img src={ShopiImg.svgSec5} id='svg' alt='svg-sec5' />
                     <button className='buttons'>
                         <a href="#sec6--shopi">Seccion 6</a>
                     </button>
@@ -123,7 +125,7 @@ function Shopi(){
                 <div className='both  right-container--shopi'>
                     
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi4.png' alt='img-filtrado'/>
+                        <img src={ShopiImg.png4} alt='img-search'/>
                     </div>
                 </div>
                    
@@ -137,7 +139,7 @@ function Shopi(){
                     <p>
                     Comprar en Shopi es fácil. Agrega productos a tu carrito de compras. 
                     </p>
-                    <img src='src\assets\icon\projectShopi\sec6shopi.svg' id='svg' alt="img-sec6" />
+                    <img src={ShopiImg.svgSec6} id='svg' alt='svg-sec6' />
                     <button className='buttons'>
                         <a href="#sec7--shopi">Seccion 7</a>
                     </button>
@@ -146,7 +148,7 @@ function Shopi(){
                 <div className='both right-container--shopi'>
 
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi5.png' alt='img-mobileOne'/>
+                        <img src={ShopiImg.png5} alt='img-shopping'/>
                     </div>
                 </div>
            
@@ -161,7 +163,7 @@ function Shopi(){
                     Completa el proceso de pago de forma segura y 
                     recibe tus productos en la puerta de tu casa.
                     </p>
-                    <img src='src\assets\icon\projectShopi\sec7shopi.svg' id='svg' alt="img-sec6" />
+                    <img src={ShopiImg.svgSec7} id='svg' alt='svg-sec7' />
                     <button className='buttons'>
                         <a href="#sec8--shopi">Seccion 8</a>
                     </button>
@@ -170,7 +172,7 @@ function Shopi(){
                 <div className='both right-container--shopi'>
 
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi7.png' alt='img-mobileOne'/>
+                        <img src={ShopiImg.png6} alt='img-pay'/>
                     </div>
                 </div>
            
@@ -184,7 +186,7 @@ function Shopi(){
                     <p>
                         Mira tu historial de compras y lleva registro de ellas.
                     </p>
-                    <img src='src\assets\icon\projectShopi\sec8shopi.svg' id='svg' alt="img-sec6" />
+                    <img src={ShopiImg.svgSec8} id='svg' alt='svg-sec8' />
                     <button className='buttons'>
                         <a href="#sec9--shopi">Seccion 9</a>
                     </button>
@@ -193,7 +195,7 @@ function Shopi(){
                 <div className='both right-container--shopi'>
 
                     <div className='img-container--shopi'>
-                        <img src='src\assets\img\Shopi\shopi6.png' alt='img-mobileOne'/>
+                        <img src={ShopiImg.png7} alt='img-orders'/>
                     </div>
                 </div>
            
@@ -209,23 +211,23 @@ function Shopi(){
                     </p>
                     <div className='icons-container--shopi'>
                     <div className='icon-container'>
-                                <img src="src\assets\icon\html.svg" alt="html" />
+                                <img src={icons.svgHtml} alt='html' />
                                 <span>HTML</span>
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\tailwindcss.svg" alt="tailwindcss" />
+                                <img src={icons.svgTailwindcss} alt='tailwindcss' />
                                 <span>Tailwindcss</span>  
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\js.svg" alt="js" />
+                                <img src={icons.svgJs} alt='js' />
                                 <span>JavaScript</span>  
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\vite.svg" alt="vite" />
+                                <img src={icons.svgVite} alt='vite' />
                                 <span>Vite</span>   
                              </div>
                              <div className='icon-container'>
-                                <img src="src\assets\icon\react.svg" alt="react" />
+                                <img src={icons.svgReact} alt='react' />
                                 <span>React</span>   
                              </div>
                             
@@ -236,7 +238,7 @@ function Shopi(){
                 </div>
 
                 <div className='both right-container--shopi'>
-                    <img src="src\assets\icon\projectShopi\sec9shopi.svg"  alt="img-sec7" />  
+                    <img src={ShopiImg.svgSec9}  alt='svg-sec9' />  
                 </div>
                
         </section>

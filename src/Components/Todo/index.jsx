@@ -1,4 +1,6 @@
 import './Todo.css'
+import TodoImg from '../../assets/todo/TodoImg';
+import icons from '../../assets/icon/icons';
 
 function Todo(){
     return(
@@ -23,7 +25,7 @@ function Todo(){
 
             <div className='both  right-container--todo'>
                     <div className='img-container--todo'>
-                        <img src='src\assets\icon\projectTodo\sec1.svg' alt='img-inicio'/>
+                        <img src={TodoImg.svgSec1} alt='img-inicio'/>
                     </div>
             </div>
                       
@@ -38,7 +40,7 @@ function Todo(){
                         Nuestra interfaz de usuario está diseñada para ofrecer una experiencia libre 
                         de distracciones. Con ToDo&ToDo, la gestión de tareas es simple y agradable.
                     </p>
-                    <img src='src\assets\icon\projectTodo\sec2.svg' id='svg' alt='img-sec2'/>
+                    <img src={TodoImg.svgSec2} id='svg' alt='img-sec2'/>
                     <button className='buttons'>
                         <a href='#sec3--todo'>Seccion 3</a>
                     </button>
@@ -47,7 +49,7 @@ function Todo(){
 
                 <div className='both right-container--todo '>
                     <div className='img-container--todo'>
-                        <img src='src\assets\img\ToDoAndToDo\inicio.png' alt='img-inicio'/>
+                        <img src={TodoImg.png1} alt='img-inicio'/>
                     </div>
                 </div>
                 
@@ -63,7 +65,7 @@ function Todo(){
                     <p>
                         Anota tus tareas pendientes de manera rápida y sencilla.
                     </p>    
-                    <img src="src\assets\icon\projectTodo\sec3.svg" id='svg' alt="img-sec3" />
+                    <img src={TodoImg.svgSec3} id='svg' alt='img-sec3' />
                     <button className='buttons'>
                         <a href='#sec4--todo'>Seccion 4</a>
                     </button>
@@ -73,7 +75,7 @@ function Todo(){
                 <div className='both right-container--todo'>
                     
                     <div className='img-container--todo'>
-                        <img src='src\assets\img\ToDoAndToDo\crear.png' alt='img-crear'/>
+                        <img src={TodoImg.png2} alt='img-crear'/>
                     </div>
                 </div>
                 
@@ -89,7 +91,7 @@ function Todo(){
                     <p>
                     Marca como completado las tareas que realizas 
                     </p>
-                    <img src="src\assets\icon\projectTodo\sec4.svg" id='svg' alt="img-sec4" />
+                    <img src={TodoImg.svgSec4} id='svg' alt='img-sec4' />
                     <button className='buttons'>
                         <a href='#sec5--todo'>Seccion 5</a>
                     </button>
@@ -99,7 +101,7 @@ function Todo(){
                 <div className='both right-container--todo'>
                     
                     <div className='img-container--todo'>
-                        <img src='src\assets\img\ToDoAndToDo\completacion.png' alt='img-completacion'/>
+                        <img src={TodoImg.png3} alt='img-completacion'/>
                     </div>
                 </div>
               
@@ -114,7 +116,7 @@ function Todo(){
                         Filtra y encuentra esa tarea pendiente que 
                         debes de hacer, no dejes que se te escape.
                     </p>
-                    <img src="src\assets\icon\projectTodo\sec5.svg" id='svg' alt="img-sec5" />
+                    <img src={TodoImg.svgSec5} id='svg' alt='img-sec5' />
                     <button className='buttons'>
                         <a href='#sec6--todo'>Seccion 6</a>
                     </button>
@@ -124,7 +126,7 @@ function Todo(){
                 <div className='both  right-container--todo'>
                     
                     <div className='img-container--todo'>
-                        <img src='src\assets\img\ToDoAndToDo\filtrado.png' alt='img-filtrado'/>
+                        <img src={TodoImg.png4} alt='img-filtrado'/>
                     </div>
                 </div>
                    
@@ -138,7 +140,7 @@ function Todo(){
                     <p>
                         ToDo & ToDo se adapta a tu dispositivos
                     </p>
-                    <img src="src\assets\icon\projectTodo\sec6.svg" id='svg' alt="img-sec6" />
+                    <img src={TodoImg.svgSec6} id='svg' alt='img-sec6' />
                     <button className='buttons'>
                         <a href='#sec7--todo'>Seccion 7</a>
                     </button>
@@ -147,7 +149,7 @@ function Todo(){
                 <div className='both right-container--todo'>
 
                     <div className='img-container--todo'>
-                        <img src='src\assets\img\ToDoAndToDo\mobileOne.png' alt='img-mobileOne'/>
+                        <img src={TodoImg.png5} alt='img-mobileOne'/>
                     </div>
                 </div>
            
@@ -163,19 +165,19 @@ function Todo(){
                     </p>
                     <div className='icons-container--todo'>
                             <div className='icon-container--todo'>
-                                <img src="src\assets\icon\html.svg" alt="html" />
+                                <img src={icons.svgHtml} alt='html' />
                                 <span>HTML</span>
                             </div>
                             <div className='icon-container--todo'>
-                                <img src="src\assets\icon\css.svg" alt="css" />
+                                <img src={icons.svgCss} alt='css' />
                                 <span>CSS</span>  
                             </div> 
                             <div className='icon-container--todo'>
-                                <img src="src\assets\icon\js.svg" alt="js" />
+                                <img src={icons.svgJs}alt='js' />
                                 <span>JavaScript</span>  
                             </div>
                                 <div className='icon-container--todo'>
-                                <img src="src\assets\icon\react.svg" alt="react" />                            
+                                <img src={icons.svgReact} alt='react' />                            
                                 <span>React</span>   
                             </div>
                             
@@ -186,7 +188,7 @@ function Todo(){
                 </div>
 
                 <div className='both right-container--todo'>
-                    <img src="src\assets\icon\projectTodo\sec7.svg"  alt="img-sec7" />  
+                    <img src={TodoImg.svgSec7}  alt='img-sec7' />  
                 </div>
                
         </section>
@@ -208,7 +210,7 @@ function Todo(){
                 <div className='both right-container--todo '>
     
                     <div className='img-container--todo'>
-                        <img src='src\assets\icon\projectTodo\sec8.svg'  alt='img-sec8'/>
+                        <img src={TodoImg.svgSec8}  alt='img-sec8'/>
                     </div>
                 </div>
                 
@@ -234,7 +236,7 @@ function Todo(){
                     <button className='buttons'>
                         <a href='https://alfandres.github.io/ToDo-and-ToDo/' target='_blank' >ir</a>
                     </button>
-                    <img src='src\assets\icon\projectTodo\ir.svg' id='svg-ir' alt='img-ir'/>
+                    <img src={TodoImg.svgIr} id='svg-ir' alt='img-ir'/>
 
                 </div>
                 

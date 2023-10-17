@@ -2,7 +2,9 @@ import React, { useRef } from 'react';
 import { useContext } from 'react';
 import { Context } from '../../Context';
 import emailjs from '@emailjs/browser';
+
 import './ContactUs.css';
+import icons from '../../assets/icon/icons';
 
 function ContactUs() {
 
@@ -47,7 +49,7 @@ function ContactUs() {
 
             <div className='email-svg--contact-us'>
                 <div>
-                    <img src="src\assets\icon\email.svg" alt="email_icon" />
+                    <img src={icons.svgEmail} alt='email_icon' />
                 </div>
             </div>
 

@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { Context } from '../../Context';
 
 import './SkillAndContact.css';
+import icons from '../../assets/icon/icons';
 
 function SkillAndContact() {
 
@@ -88,7 +89,7 @@ const context = useContext(Context);
                         <div>
                             <a href='https://github.com/alfandres' target='_blank'> 
                                 <div className='box--contact'>
-                                    <img src='src\assets\icon\icon-github.svg' alt='icon-github'/>
+                                    <img src={icons.svgGitHub} alt='icon-github'/>
                                     <span>GitHub</span>
                                 </div>
                             </a>
@@ -96,7 +97,7 @@ const context = useContext(Context);
                         <div>
                             <a href='https://www.linkedin.com/in/andres-parra-64b27a174/' target='_blank' >
                                 <div className='box--contact'>
-                                    <img src='src\assets\icon\icon-linkedin.svg' alt='icon-linkedin'/>
+                                    <img src={icons.svgLinkedin} alt='icon-linkedin'/>
                                     <span>Linkedin</span>
                                 </div>
                             </a>
@@ -104,7 +105,7 @@ const context = useContext(Context);
                         <div>
                         <a href='https://wa.me/qr/LHJSQH7W67FSJ1' target='_blank' >
                                 <div className='box--contact'>
-                                    <img src='src\assets\icon\whatsapp.svg' alt='icon-linkedin'/>
+                                    <img src={icons.svgWhatsapp} alt='icon-whatsapp'/>
                                     <span>Whatsapp</span>
                                 </div>
                             </a>
@@ -115,7 +116,7 @@ const context = useContext(Context);
                                 onClick={toggleModalEmail}    
                             >
                                 <div className='box--contact'>
-                                    <img src='src\assets\icon\correo.svg' alt='icon-linkedin'/>
+                                    <img src={icons.svgMail} alt='icon-linkedin'/>
                                     <span>Correo</span>
                                 </div>
                             </button>
