@@ -4,6 +4,7 @@ import { Context } from '../../Context';
 
 import './Project.css';
 import icons from '../../assets/icon/icons';
+import { Link } from 'react-router-dom';
 
 
 function Project() {
@@ -64,11 +65,11 @@ function Project() {
                 </div>
                       
                 <div className='button--project'>
-                    <a href='..#/project-todoandtodo'>
+                    <Link to='/project-todoandtodo'>
                         <button className='buttons' onClick={context.scrollUp}>
                         ir
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 </div>        
             </div>
@@ -135,11 +136,11 @@ function Project() {
                 </div>          
                        
                 <div className='button--project'>
-                    <a href='..#/project-shopi'>
+                    <Link to='/project-shopi'>
                         <button className='buttons' onClick={context.scrollUp}>
                         ir
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </div>         

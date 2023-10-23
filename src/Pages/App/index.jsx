@@ -7,7 +7,7 @@ function App() {
 
   return (
     <Provider>
-      <HashRouter future={{ v7_startTransition: true }}>
+      <HashRouter>
         <AppUi />
       </HashRouter>
     </Provider>

@@ -4,6 +4,7 @@ import { Context } from '../../Context';
 
 import './Start.css';
 import icons from '../../assets/icon/icons';
+import { Link } from 'react-router-dom';
 
 function Start() {
 
@@ -65,14 +66,14 @@ function Start() {
                   </div>
                   
                 </a>
-                <a href='..#/about'>
+                <Link to='/about'>
                   <button className='btn-cont--start' onClick={context.scrollUp}>
                     <div className='box--start'> 
                       <img src={icons.svgContact} alt='icon-my-contact'/>
                       <span>Contacto</span>
                     </div>
                   </button>   
-                </a>
+                </Link>
               </div> 
             </div>
           </div>
