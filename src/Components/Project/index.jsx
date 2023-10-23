@@ -64,7 +64,7 @@ function Project() {
                 </div>
                       
                 <div className='button--project'>
-                    <a href='/#/project-todoandtodo'>
+                    <a href='..#/project-todoandtodo'>
                         <button className='buttons' onClick={context.scrollUp}>
                         ir
                         </button>
@@ -135,7 +135,7 @@ function Project() {
                 </div>          
                        
                 <div className='button--project'>
-                    <a href='/#/project-shopi'>
+                    <a href='..#/project-shopi'>
                         <button className='buttons' onClick={context.scrollUp}>
                         ir
                         </button>

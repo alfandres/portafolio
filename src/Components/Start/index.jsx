@@ -65,7 +65,7 @@ function Start() {
                   </div>
                   
                 </a>
-                <a href='/#/about'>
+                <a href='..#/about'>
                   <button className='btn-cont--start' onClick={context.scrollUp}>
                     <div className='box--start'> 
                       <img src={icons.svgContact} alt='icon-my-contact'/>
