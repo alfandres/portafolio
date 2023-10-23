@@ -42,14 +42,14 @@ function Start() {
             <div className='links-container--start'>
 
               <div className='boxe--start'>
-                <a href='/#/about'>
+                <Link to='/about'>
                   <button className='btn-cont--start' onClick={context.scrollUp}>
                     <div className='box--start'> 
                       <img src={icons.svgContact} alt='icon-my-contact'/>
                       <span>Contacto</span>
                     </div>
                   </button>   
-                </a>
+                </Link>
               </div>
 
               <div className='boxes--start'>
