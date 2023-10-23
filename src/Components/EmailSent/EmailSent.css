@@ -7,9 +7,21 @@
 }
 
 .container--email-sent img{
-    width: 40%;
+    width: 300px
 }
 
 .container--email-sent button {
     margin-top: 25px;
+}
+
+@media (max-height: 690px){
+    .container--email-sent img{
+        width: 220px;
+    }
+}
+
+@media (max-width: 400px){
+    .container--email-sent img{
+        width: 150px;
+    }
 }

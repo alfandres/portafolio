@@ -1,12 +1,9 @@
 import Shopi from "../../Components/Shopi";
 
-
 function ProjectShopi() {
 
     return (
-      
       <Shopi/>
-      
     )
   }
   

@@ -27,32 +27,25 @@ function Profile() {
     },[]);
 
     return(
-        <section id='sec1--aboutme' className='section--aboutme'>
-                <div className='sec1-container--aboutme'>
+        <section className='section--profile'>
+                <div className='sec1-container--profile'>
                     <div className="avatar">
                         <img src={images.me} alt='me' />
                     </div>
-                    <div className='name-container--aboutme'>
+                    <div className='name-container--profile'>
                         <h2>Andres Parra </h2>
-                        <span>Venezuela / Colombia</span>  
+                        <span>Venezuela/Colombia</span>  
                     </div>
                     
                 </div>
-                <div className='title-container--aboutme'>
+                <div className='title-container--profile'>
                     
                     <h1>Hello.</h1>
 
-                    
-                    <div className='animated-elements'>I'm  <span ref={el}/></div>
-                    
+                    <div className='animated-elements'><p>I'm  <span ref={el}/></p></div>
                     
                 </div>
-                <div className='scroll-button1--aboutme'>
-                    <button className='buttons'>
-                        <a href='#sec2--aboutme'> <span>siguiente</span></a>
-                    </button>
-                </div>
-            
+                
         </section>
 
     );

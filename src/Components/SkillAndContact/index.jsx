@@ -10,11 +10,12 @@ function SkillAndContact() {
 const context = useContext(Context);
 
     const toggleModalEmail = () => {
+        context.setOpenscrollUp(false);
         context.setOpenModalEmail(!context.openModalEmail);
       }
 
     return(
-        <section id='sec3--skill' className='section--skill'>
+        <section className='section--skill'>
             <div className='layout--skill'>
                 <div className='container-center--skill'>
                     <h2 className='h2--skill'>Skills:</h2>
@@ -127,12 +128,6 @@ const context = useContext(Context);
 
             </div>
 
-
-                <div className='scroll-button1--aboutme'>
-                    <button className='buttons'>
-                        <a href='#sec1--aboutme'> <span>siguiente</span></a>
-                    </button>
-                </div>
         </section>
     );
 }

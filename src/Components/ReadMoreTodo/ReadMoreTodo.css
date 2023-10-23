@@ -6,3 +6,21 @@
 .para--read-more-todo {
 	line-height: 1.5;
   }
+
+  @media (max-width: 880px) {
+
+	.container-text--read-more-todo{
+		height: 80%;
+		overflow: auto;
+		overscroll-behavior-y: contain;
+	  }
+	
+}
+
+@media (max-width: 400px) {
+
+	.container-text--read-more-todo{
+		height: 70%;
+	  }
+	
+}

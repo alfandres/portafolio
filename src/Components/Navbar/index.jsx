@@ -9,7 +9,7 @@ function Navbar() {
         <nav className='nav-container'>
             <ul className='ul--left'>
                 <li className='li-container'>
-                    <NavLink to='/portafolio' className='nav-link'>
+                    <NavLink to='/' className='nav-link'>
                         Projectos
                     </NavLink>
                 </li>

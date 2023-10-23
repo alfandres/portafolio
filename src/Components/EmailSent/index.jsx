@@ -9,6 +9,7 @@ function EmailSent() {
     const context = useContext(Context);
 
     const toggleModal = () => {
+        context.setOpenscrollUp(false);
         context.setOpenModalEmailSent(context.openModalEmailSent=false);
     }
 

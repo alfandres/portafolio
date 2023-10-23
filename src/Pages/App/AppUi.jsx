@@ -15,13 +15,14 @@ import ReadMoreTodo from '../../Components/ReadMoreTodo';
 import ReadMoreShopi from '../../Components/ReadMoreShopi';
 import ContactUs from '../../Components/ContactUs';
 import EmailSent from '../../Components/EmailSent';
+import BackToTopBtn from '../../Components/BackToTopBtn';
 
 
 
 const AppRouter = () => {
   
     let router = useRoutes ([
-      { path: '/portafolio', element: <Home/> },
+      { path: '/', element: <Home/> },
       { path: '/about', element: <About/> },
       { path: '/project-todoandtodo', element: <ProjectTodoandtodo/> },
       { path: '/project-shopi', element: <ProjectShopi/> },
@@ -45,6 +46,8 @@ function AppUi() {
     <>
     <Navbar/> 
     <AppRouter/>
+    <BackToTopBtn/>
+    
 
     {openModal1 && (
         <Modal>
@@ -71,9 +74,7 @@ function AppUi() {
       )
     }
     {openModalEmailSent && (
-        <Modal
-        width={true}
-        >
+        <Modal>
           <EmailSent/>
         </Modal>
       )

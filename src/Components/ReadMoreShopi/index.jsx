@@ -7,6 +7,7 @@ function ReadMoreShopi() {
             <p className='heading--read-more-shopi'>
                 Shopi
             </p>
+            <div className='container-text--read-more-shopi'>
             <p className='para--read-more-shopi'>
                 Shopi es tu tienda en línea completa, donde puedes explorar y comprar una amplia variedad de productos.<br/>
 
@@ -14,6 +15,9 @@ function ReadMoreShopi() {
 
                 <br/>El objetivo al hacer este proyecto era aprender a consumir una api, en este caso utilicé Fake Store API.
             </p>
+
+            </div>
+            
         </>
     );
 }

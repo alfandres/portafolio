@@ -35,8 +35,7 @@
   
   textarea {
     resize: none;
-    height: 80px;
-    width: 94%;
+  
   }
   
   .contact-form--contact-us input, .contact-form--contact-us textarea {
@@ -44,6 +43,7 @@
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
+    height: 24px;
   }
   
   .contact-form--contact-us input:focus, .contact-form--contact-us textarea:focus {
@@ -85,4 +85,23 @@
 
   .email-svg--contact-us img{
     width: 70%;
+  }
+
+  
+  @media (max-width: 900px) {
+    .email-svg--contact-us{
+      display: none;
+    }
+
+    .contact-form--contact-us form {
+      width: 100%;
+    }
+
+    .container--contact-us{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  
+  }
+
   }

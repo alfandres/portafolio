@@ -4,6 +4,37 @@
 	font-size: 32px;
   }
 
+  .container-text--read-more{
+	width: 100%;
+	height: 90%;
+  }
+
  .para--read-more {
 	line-height: 1.5;
   }
+
+@media (max-width: 880px) {
+
+	.container-text--read-more{
+		height: 90%;
+		overflow: auto;
+		overscroll-behavior-y: contain;
+	  }
+	
+}
+
+@media (max-width: 500px) {
+
+	.container-text--read-more{
+		height: 58%;
+	  }
+	
+}
+
+@media (max-width: 400px) {
+
+	.container-text--read-more{
+		height: 35%;
+	  }
+	
+}

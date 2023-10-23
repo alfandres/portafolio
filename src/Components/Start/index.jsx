@@ -1,9 +1,18 @@
+import React from 'react';
+import { useContext } from 'react';
+import { Context } from '../../Context';
+
 import './Start.css';
 import icons from '../../assets/icon/icons';
 
 function Start() {
+
+  const context = useContext(Context);
+
+  
+
     return(
-        <section id='home'>
+        <section>
           <div className='Home-container'>
             <div className='name-container'>
               <span>Andres Parra</span>
@@ -23,35 +32,47 @@ function Start() {
             
             </div>
 
-            <div className='scroll-button--home'>
+            {/* <div className='scroll-button--home'>
               <button className='buttons'>
                 <a href='#proj1'> <span>Proyecto 1</span></a>
               </button>
-            </div>
+            </div> */}
 
-            <div className='links-container'>
+            <div className='links-container--start'>
+
+              <div className='boxe--start'>
+                <a href='/#/about'>
+                  <button className='btn-cont--start' onClick={context.scrollUp}>
+                    <div className='box--start'> 
+                      <img src={icons.svgContact} alt='icon-my-contact'/>
+                      <span>Contacto</span>
+                    </div>
+                  </button>   
+                </a>
+              </div>
+
               <div className='boxes--start'>
                 <a href='https://github.com/alfandres' target='_blank'> 
-                  <div className='box--start'>
+                  <div className='box--start git--start'>
                     <img src={icons.svgGitHub} alt='icon-github'/>
                     <span>GitHub</span>
                   </div>
                 </a>
                 <a href='https://www.linkedin.com/in/andres-parra-64b27a174/' target='_blank' >
-                  <div className='box--start'>
+                  <div className='box--start link--start'>
                     <img src={icons.svgLinkedin} alt='icon-linkedin'/>
                     <span>Linkedin</span>
                   </div>
                   
                 </a>
-                <a href='/about'>
-                  <div className='box--start'> 
-                    <img src={icons.svgContact} alt='icon-my-contact'/>
-                    <span>Contacto</span>
-                  </div>
-                    
+                <a href='/#/about'>
+                  <button className='btn-cont--start' onClick={context.scrollUp}>
+                    <div className='box--start'> 
+                      <img src={icons.svgContact} alt='icon-my-contact'/>
+                      <span>Contacto</span>
+                    </div>
+                  </button>   
                 </a>
-
               </div> 
             </div>
           </div>

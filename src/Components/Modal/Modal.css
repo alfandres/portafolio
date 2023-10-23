@@ -14,9 +14,10 @@
 }
 
 .card--modal {
-    width: 800px;
-    height: 600px;
+    width: 80%;
+    height: 70%;
     margin: 0 auto;
+    position: relative;
     background-color: #e8e8e8;
     border-radius: 8px;
     z-index: 1;
@@ -24,12 +25,16 @@
   
   .tools--modal {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     padding: 9px;
   }
   
   .circle--modal {
     padding: 0 4px;
+    position: absolute;
+    top: 4px;
+    left: 3px;
   }
   
   .box--modal {
@@ -47,8 +52,21 @@
   }
 
   .card-content--modal{
-    padding: 20px 60px;
+    padding: 20px 50px;
 	  color: black;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  @media (max-width: 880px) {
+
+    .card-content--modal{
+      padding: 10px 40px;
+  
+    }
+  
   }
 
   

@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 
 import './Modal.css';
 
-function Modal({ children, width }) {
+function Modal({ children }) {
     const context = useContext(Context);
 
     const toggleModal = () => {

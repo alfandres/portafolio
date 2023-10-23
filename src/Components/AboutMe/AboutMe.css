@@ -1,48 +1,18 @@
-
-.scroll-button2--aboutme{
-   margin-bottom: 15px; 
-    
-}
-
-
-.title-container--aboutme{
+.section--aboutme{
 	width: 100%;
-	display: flex;
-    align-items: center;
-    flex-direction: column;
-
-}
-.title-container--aboutme h1{
-	font-size: 100px;
-
-}
-.animated-elements{
-	font-weight: bold;
-	font-style: normal;
-	text-indent: 6em;
-	font-size: 35px;
-}
-
-#sec2--aboutme{
+    height: 800px;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	background-size: 500% ;
 	animation: animatedBackground 10s infinite;
 
-}
-
-.sec2-container--aboutme{
-	width: 100%;
-    height: 600px;
-	
 	display: grid;
   	grid-template-rows: 1fr;
   	grid-template-columns: repeat(3, 1fr);
   	gap: 8px;
 	place-items: center;
-	align-items: start;
-	margin-top: 35px;
-
+	
 }
+
 /* .text-container--aboutme{
 	width: 400px;
 	height: 600px;
@@ -130,5 +100,68 @@
 	box-shadow: none;
   }
 
+.container--aboutme{
+	display: none;
+}
+
+@media (max-width: 1300px) {
+	
+	.section--aboutme{
+		height: 900px;
+		width: 100%;
+		display: flex;
+	}
+
+
+	.card--aboutme{
+		display: none;
+	}
+
+	.container--aboutme{
+		display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        overflow-y: hidden;
+	}
+	.element--aboutme{
+		flex: 1 0 auto;
+        margin: 0 8px;
+        width: 300px;
+		height: 600px;
+		
+
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 0;
+		
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+		padding: 32px;
+		overflow: hidden;
+		border: solid #e8e8e8 2px;
+		border-radius: 10px;
+		transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+	}
+
+	.container--aboutme::-webkit-scrollbar{
+        height: 12px;
+        background: #485563;
+    }
+    .container--aboutme::-webkit-scrollbar-thumb{
+        background: #e8e8e8;
+        border-radius: 5px;
+		
+    }
+	
+	.container-center--skill{
+		margin-top: 25px;
+	}
+
+	.content--aboutme {
+		gap: 125px;
+	}
+}
 
 

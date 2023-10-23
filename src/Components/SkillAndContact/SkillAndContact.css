@@ -1,12 +1,9 @@
-#sec3--skill{
+.section--skill{
 	background-image: linear-gradient(135deg
-	,#A0D2EB, #E6EAF3, #0fd850, #D0BDF4, #8559B1);
+	,#A0D2EB, #0fd850, #D0BDF4, #8559B1);
 	background-size: 500% ;
 	animation: animatedBackground 10s infinite;
 
-}
-
-.section--skill{
     width: 100%;
     height: 800px;
     display: grid;
@@ -160,8 +157,8 @@
     align-items: center;
     justify-content: space-around;
     width: 150px;
-    height: 78px;
-    background-color: var(--color-one);
+    height: 80px;
+    background-color: white;
     border-radius: 10px;
     z-index: 0;
     position: relative;
@@ -170,7 +167,7 @@
 .box--contact::before{
     content: '';
     width: 0;
-    height: 78px;
+    height: 80px;
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -203,4 +200,27 @@
 .button-email--contact{
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 880px) {
+  .section--skill{
+    display: flex;
+    height: 900px;
+  }
+  .layout--skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .layou-contact {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+
+}
+
 }

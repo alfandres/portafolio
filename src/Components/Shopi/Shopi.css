@@ -1,24 +1,28 @@
 .project-container--shopi{
     width: 100%;
     height: 100%;
-    display: grid;
-    place-items: center;
+    
     background-image: linear-gradient(135deg
     ,#A0D2EB, #E6EAF3, #D0BDF4, #8559B1);
     background-size: 500%;
     animation: animatedBackground 10s infinite;
 }
+.project-container--shopi h1{
+
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
 
 .section--shopi{
     width: 100%;
-    height: 800px;
+    height: 700px;
   
     display: grid;
     grid-template-rows: repeat(auto-fit, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
 
-    margin: 25px 0;
 }
 
 
@@ -30,6 +34,7 @@
 .both{
     display: grid;
     place-items: center;
+    align-content: space-evenly;
     padding: 25px 10px;
 }
 
@@ -40,7 +45,7 @@
     padding: 0 25px;
     text-align: center;
 }
-#svg-ir{
+.svg-ir--shopi{
     height: 400px;
     padding: 0;
 }
@@ -70,7 +75,7 @@
     width: 700px;
     padding: 0 25px;
 }
-#svg{
+.svg--shopi{
     height: 280px;
 }
 
@@ -104,5 +109,41 @@
     }
     100%{
         background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 1024px){
+    .section--shopi{
+        width: 100%;
+        height: auto;
+      
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4px;
+    
+    }
+}
+
+@media (max-width: 880px){
+    
+    .img-container--shopi img{
+        width: 380px;  
+    }
+    
+    .svg--shopi{
+        height: 180px;
+    }
+    .svg-ir--shopi{
+        height: 280px;
+    }
+
+    .icons-container--shopi{
+        gap: 25px;
+    }
+
+    .icon-container--shopi img{
+        width: 45px;
+        margin-top: 12px;
     }
 }
