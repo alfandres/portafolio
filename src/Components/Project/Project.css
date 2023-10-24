@@ -46,6 +46,9 @@
 
  .button--project{
     margin-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -75,6 +78,12 @@
     .card--project{
         width: 300px;
         height: 500px;
+    }
+
+    .card--project span{
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;
     }
 
     .icons-container{

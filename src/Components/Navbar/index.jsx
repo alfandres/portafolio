@@ -10,7 +10,7 @@ function Navbar() {
             <ul className='ul--left'>
                 <li className='li-container'>
                     <NavLink to='/' className='nav-link'>
-                        Projectos
+                        Proyectos
                     </NavLink>
                 </li>
                 <li  className='li-container'>

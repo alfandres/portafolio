@@ -202,6 +202,12 @@ function Shopi(){
                         </div>
                                 
                         </div> 
+                        <div>
+                            <h3>Ir a SHOPI</h3>
+                            <button className='buttons'>
+                            <a href='https://react-vite-project-shopi.netlify.app/' target='_blank' >ir</a>
+                            </button>
+                        </div>
                   
                 </div>
 

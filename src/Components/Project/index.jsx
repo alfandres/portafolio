@@ -65,18 +65,27 @@ function Project() {
                 </div>
                       
                 <div className='button--project'>
+                <h3>Ir a Presentacion</h3>
                     <Link to='/project-todoandtodo'>
                         <button className='buttons' onClick={context.scrollUp}>
                         ir
                         </button>
                     </Link>
                 </div>
+                <div className='button--project'>
+                    <h3>Ir a ToDo&ToDo</h3>
+                    <a href='https://alfandres.github.io/ToDo-and-ToDo/'  target='_blank'>
+                        <button className='buttons'>
+                        ir
+                        </button>
+                    </a>
+                </div>
                 </div>        
             </div>
 
             <div className='container--project'>
                 <div className='card--project'>
-                <span>Shopi</span>
+                <span>SHOPI</span>
                 <p>- Una fake store -</p>
                 <p>Estado: pausado</p>
                 <div className='icons-container'>
@@ -136,11 +145,20 @@ function Project() {
                 </div>          
                        
                 <div className='button--project'>
+                <h3>Ir a Presentacion</h3>
                     <Link to='/project-shopi'>
                         <button className='buttons' onClick={context.scrollUp}>
                         ir
                         </button>
                     </Link>
+                </div>
+                <div className='button--project'>
+                    <h3>Ir a SHOPI</h3>
+                    <a href='https://react-vite-project-shopi.netlify.app/'  target='_blank'>
+                        <button className='buttons'>
+                        ir
+                        </button>
+                    </a>
                 </div>
                 </div>
             </div>         

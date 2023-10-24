@@ -199,9 +199,13 @@ function Todo(){
                     ¡Únete a nuestra comunidad de usuarios y sé parte del 
                     viaje de desarrollo de ToDo&ToDo! Mantente al tanto de las actualizaciones.
                     </p>
-                    <button className='buttons'>
-                    <a href='https://alfandres.github.io/ToDo-and-ToDo/' target='_blank' >ir</a>
-                    </button>
+                    <div>
+                        <h3>Ir a ToDo&ToDo</h3>
+                        <button className='buttons'>
+                        <a href='https://alfandres.github.io/ToDo-and-ToDo/' target='_blank' >ir</a>
+                        </button>
+                    </div>
+                    
                 </div>
 
                 <div className='both right-container--todo '>
